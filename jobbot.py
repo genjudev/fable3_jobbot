@@ -55,7 +55,7 @@ d = d3dshot.create(capture_output="numpy")
 
 IMAGES = []
 
-for i in ['img_1.PNG', 'img_2.PNG', 'img_3.PNG']:
+for i in ['src/img_1.PNG', 'src/img_2.PNG', 'src/img_3.PNG']:
     IMAGES.append(
         cv2.imread(i, 0)
         )
