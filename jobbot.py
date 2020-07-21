@@ -1,4 +1,4 @@
-from win32 import win32gui
+from win32 import win32gui # for pyinstaller
 import win32ui, win32con, win32api
 import cv2
 import time
